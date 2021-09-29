@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Frontend Mentor | Intro component with sign up form</title>
   </head>
   <body>
@@ -36,22 +37,26 @@
         <div class="login-part">
           <div class="inputs">
             <input type="text" placeholder="First Name" class="name" />
+            <img src="./images/icon-error.svg" class="img-name" />
             <p class="w-name">First Name cannot be empty</p>
           </div>
           <div class="inputs">
             <input type="text" placeholder="Last Name" class="last" />
+            <img src="./images/icon-error.svg" class="img-last" />
             <p class="w-last">Last Name cannot be empty</p>
           </div>
           <div class="inputs">
             <input type="text" placeholder="Email Address" class="mail" />
+            <img src="./images/icon-error.svg" class="img-mail" />
             <p class="w-mail">Looks like this is not an email</p>
           </div>
           <div class="inputs">
             <input type="text" placeholder="Password" class="pass" />
+            <img src="./images/icon-error.svg" class="img-pass" />
             <p class="w-pass">Password cannot be empty</p>
           </div>
           <div class="create-acc">
-            <button>CLAIM YOUR FREE TRIAL</button>
+            <button class="cbutton">CLAIM YOUR FREE TRIAL</button>
           </div>
           <div class="last-p">
             By clicking the button, you are agreeing to our
@@ -60,5 +65,6 @@
         </div>
       </div>
     </div>
+    <script src="./js/app.js"></script>
   </body>
 </html>
