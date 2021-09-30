@@ -216,5 +216,122 @@ body {
   font-weight: 700;
 }
 
-@media (width: 375px) {
+@media (max-width: 375px) {
+  .container {
+    background-image: url("/images/bg-intro-desktop.png");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0px;
+  }
+
+  .left-part {
+    text-align: center;
+    width: 270px;
+    color: white;
+    margin: 0px;
+  }
+
+  .left-header {
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+    padding-bottom: 25px;
+  }
+
+  .left-text {
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 45px;
+  }
+
+  .right-part {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    margin: 0px;
+  }
+
+  .top-right {
+    color: white;
+    font-size: 15px;
+    background-color: #5e54a4;
+    padding: 15px 0px;
+    border-radius: 8px;
+    font-weight: 400;
+    box-shadow: 0px 5px 0px 0px rgb(0 0 0 / 20%);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 26px;
+  }
+
+  .top-right span {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 700;
+  }
+
+  .login-part {
+    display: flex;
+    flex-direction: column;
+    max-width: 55vh;
+    background-color: white;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 5px 0px 0px rgb(0 0 0 / 20%);
+    align-items: normal;
+    position: relative;
+  }
+
+  .last-p {
+    text-align: center;
+    margin: 15px 19px;
+    font-size: 11px;
+    color: #bab7d4;
+  }
+
+  .inputs-p {
+    width: 90%;
+    padding: 15px 10px;
+    align-items: center;
+  }
+
+  .input-fix {
+    display: block;
+    padding: 7px 10px;
+    width: 82%;
+    text-align: center;
+    overflow: visible;
+  }
+
+  .create-acc button {
+    width: 100%;
+    padding: 20px 0px;
+    color: white;
+    background-color: #38cc8b;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 4px;
+    border-color: #38cc8b;
+    border-style: none;
+    cursor: pointer;
+    margin-left: 11px;
+  }
+
+  .error-p {
+    display: block;
+    color: #ff7979;
+    text-align: end;
+    margin-top: 6px;
+    font-size: 14px;
+  }
 }
