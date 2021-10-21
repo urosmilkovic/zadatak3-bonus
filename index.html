@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-part">
+        <div class="left-header">Learn to code by watching others</div>
+        <div class="left-text">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </div>
+      </div>
+      <div class="right-part">
+        <div class="top-right">
+          <span>Try it free 7 days</span> then $20/mo. thereafter
+        </div>
+        <div class="login-part">
+          <div class="inputs-n">
+            <input type="text" placeholder="First Name" class="name" />
+            <p class="w-name">First Name cannot be empty</p>
+          </div>
+          <div class="inputs-l">
+            <input type="text" placeholder="Last Name" class="last" />
+            <p class="w-last">Last Name cannot be empty</p>
+          </div>
+          <div class="inputs-m">
+            <input type="text" placeholder="Email Address" class="mail" />
+            <p class="w-mail">Looks like this is not an email</p>
+          </div>
+          <div class="inputs-p">
+            <input
+              type="text"
+              placeholder="Password"
+              class="pass"
+              onfocus="this.value=''"
+            />
+            <p class="w-pass">Password cannot be empty</p>
+          </div>
+          <div class="create-acc">
+            <button class="cbutton" type="submit">CLAIM YOUR FREE TRIAL</button>
+          </div>
+          <div class="last-p">
+            By clicking the button, you are agreeing to our
+            <span>Terms and Services</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/app2.js"></script>
+  </body>
+</html>
